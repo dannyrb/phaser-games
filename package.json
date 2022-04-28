@@ -1,0 +1,14 @@
+{
+  "name": "phaser-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "pretty": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}

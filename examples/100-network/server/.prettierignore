@@ -1,0 +1,5 @@
+dist
+node_modules
+.npmrc
+.prettierignore
+package-lock.json

@@ -1,10 +1,11 @@
 import Phaser from "phaser";
 //
 import tilesImg from "../assets/tiles.png";
-import faceImg from "../assets/face.png";
+import brawlerSprite from "../assets/brawler48x48.png";
 import mapJson from "../assets/map1.json";
 //
 import Align from "../util/Align";
+import PlayerController from "../PlayerController";
 
 const state = {
   isDirty: false,
@@ -12,12 +13,18 @@ const state = {
 };
 
 export class SceneMain extends Phaser.Scene {
+  /** @type {PlayerController} */
+  playerController
+
   constructor() {
     super("SceneMain");
   }
   preload() {
     this.load.image("tiles", tilesImg);
-    this.load.image("face", faceImg);
+    this.load.spritesheet("brawler", brawlerSprite, {
+      frameWidth: 48,
+      frameHeight: 48,
+    });
     this.load.tilemapTiledJSON("map", mapJson);
   }
   create() {
@@ -45,9 +52,55 @@ export class SceneMain extends Phaser.Scene {
     const cactusLayer = map.createLayer("cactus", tileset, 0, 0);
     const hillLayer = map.createLayer("hills", tileset, 0, 0);
 
+    // Player
+    // Animations
+    this.anims.create({
+      key: "left-walk",
+      frames: this.anims.generateFrameNumbers("brawler", {
+        frames: [0, 1, 2, 3],
+      }),
+      frameRate: 8,
+      repeat: -1,
+    });
+
+    this.anims.create({
+      key: "right-walk",
+      frames: this.anims.generateFrameNumbers("brawler", {
+        frames: [0, 1, 2, 3],
+      }),
+      frameRate: 8,
+      repeat: -1,
+    });
+
+    this.anims.create({
+      key: "left-idle",
+      frames: this.anims.generateFrameNumbers("brawler", {
+        frames: [5, 6, 7, 8],
+      }),
+      frameRate: 8,
+      repeat: -1,
+    });
+
+    this.anims.create({
+      key: "right-idle",
+      frames: this.anims.generateFrameNumbers("brawler", {
+        frames: [5, 6, 7, 8],
+      }),
+      frameRate: 8,
+      repeat: -1,
+    });
+
     this.player = this.physics.add
-      .sprite(200, 200, "face")
+      .sprite(200, 200, "brawler")
+      .setScale(8)
       .setCollideWorldBounds(true);
+
+    // create an instance of PlayerController 👇
+		this.playerController = new PlayerController(this.player)
+
+		// set initial state to 'idle' 👇
+		this.playerController.setState('moveLeft')
+    
     this.cameras.main.startFollow(this.player);
 
     // Scale player based on game width
@@ -66,9 +119,17 @@ export class SceneMain extends Phaser.Scene {
   }
 
   update() {
-    this.player.setVelocityY(0);
-    this.player.setVelocityX(0);
 
+    if (this.cursors.left.isDown) {
+      this.playerController.setState('moveLeft');
+    } else if (this.cursors.right.isDown) {
+      this.playerController.setState('moveRight');
+    } else if (this.cursors.up.isDown) {
+    } else if (this.cursors.down.isDown) {
+    } else {
+      this.playerController.setState('idle');
+    }
+    
   }
 }
 export default SceneMain;

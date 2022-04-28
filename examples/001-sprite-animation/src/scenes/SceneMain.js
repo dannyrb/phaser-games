@@ -14,7 +14,7 @@ const state = {
 
 export class SceneMain extends Phaser.Scene {
   /** @type {PlayerController} */
-  playerController
+  playerController;
 
   constructor() {
     super("SceneMain");
@@ -96,11 +96,11 @@ export class SceneMain extends Phaser.Scene {
       .setCollideWorldBounds(true);
 
     // create an instance of PlayerController 👇
-		this.playerController = new PlayerController(this.player)
+    this.playerController = new PlayerController(this.player);
 
-		// set initial state to 'idle' 👇
-		this.playerController.setState('moveLeft')
-    
+    // set initial state to 'idle' 👇
+    this.playerController.setState("moveLeft");
+
     this.cameras.main.startFollow(this.player);
 
     // Scale player based on game width
@@ -119,17 +119,15 @@ export class SceneMain extends Phaser.Scene {
   }
 
   update() {
-
     if (this.cursors.left.isDown) {
-      this.playerController.setState('moveLeft');
+      this.playerController.setState("moveLeft");
     } else if (this.cursors.right.isDown) {
-      this.playerController.setState('moveRight');
+      this.playerController.setState("moveRight");
     } else if (this.cursors.up.isDown) {
     } else if (this.cursors.down.isDown) {
     } else {
-      this.playerController.setState('idle');
+      this.playerController.setState("idle");
     }
-    
   }
 }
 export default SceneMain;

@@ -9,31 +9,30 @@ import MoveRightState from "./MoveRightState";
  * - This "happens" to persist the flip for the idle state as well
  */
 class PlayerController {
-    states = {};
-    currentState = "moveLeft";
-  
-    /**
-       * @param {Phaser.Physics.Arcade.Sprite} player 
-       */
-    constructor(player) {
-  
-      this.states = {
-        idle: new IdleState(player),
-        moveLeft: new MoveLeftState(player),
-        moveRight: new MoveRightState(player),
-        // moveDown: new MoveDownState(player),
-        // moveUp: new MoveUpState(player)
-      }
-    }
+  states = {};
+  currentState = "moveLeft";
 
-    setState(name) {
-      if (this.currentState === this.states[name]){
-        return
-      }
-
-      this.currentState = this.states[name]
-      this.currentState.enter()
-    }
+  /**
+   * @param {Phaser.Physics.Arcade.Sprite} player
+   */
+  constructor(player) {
+    this.states = {
+      idle: new IdleState(player),
+      moveLeft: new MoveLeftState(player),
+      moveRight: new MoveRightState(player),
+      // moveDown: new MoveDownState(player),
+      // moveUp: new MoveUpState(player)
+    };
   }
 
- export default PlayerController;
+  setState(name) {
+    if (this.currentState === this.states[name]) {
+      return;
+    }
+
+    this.currentState = this.states[name];
+    this.currentState.enter();
+  }
+}
+
+export default PlayerController;

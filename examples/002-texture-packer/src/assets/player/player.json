@@ -1,0 +1,770 @@
+{
+  "textures": [
+    {
+      "image": "player.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1530,
+        "h": 477
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "climb/player_climb_00.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 135,
+            "h": 151
+          },
+          "spriteSourceSize": {
+            "x": 74,
+            "y": 43,
+            "w": 135,
+            "h": 151
+          },
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 135,
+            "h": 151
+          },
+          "anchor": {
+            "x": 0.562962962962963,
+            "y": 0.5629139072847682
+          }
+        },
+        {
+          "filename": "climb/player_climb_01.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 138,
+            "h": 151
+          },
+          "spriteSourceSize": {
+            "x": 73,
+            "y": 43,
+            "w": 138,
+            "h": 151
+          },
+          "frame": {
+            "x": 153,
+            "y": 0,
+            "w": 138,
+            "h": 151
+          },
+          "anchor": {
+            "x": 0.5579710144927537,
+            "y": 0.5629139072847682
+          }
+        },
+        {
+          "filename": "climb/player_climb_02.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 148,
+            "h": 148
+          },
+          "spriteSourceSize": {
+            "x": 70,
+            "y": 43,
+            "w": 148,
+            "h": 148
+          },
+          "frame": {
+            "x": 306,
+            "y": 0,
+            "w": 148,
+            "h": 148
+          },
+          "anchor": {
+            "x": 0.5405405405405406,
+            "y": 0.5743243243243243
+          }
+        },
+        {
+          "filename": "climb/player_climb_03.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 151,
+            "h": 147
+          },
+          "spriteSourceSize": {
+            "x": 70,
+            "y": 43,
+            "w": 151,
+            "h": 147
+          },
+          "frame": {
+            "x": 459,
+            "y": 0,
+            "w": 151,
+            "h": 147
+          },
+          "anchor": {
+            "x": 0.5298013245033113,
+            "y": 0.5782312925170068
+          }
+        },
+        {
+          "filename": "climb/player_climb_04.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 143,
+            "h": 149
+          },
+          "spriteSourceSize": {
+            "x": 76,
+            "y": 43,
+            "w": 143,
+            "h": 149
+          },
+          "frame": {
+            "x": 612,
+            "y": 0,
+            "w": 143,
+            "h": 149
+          },
+          "anchor": {
+            "x": 0.5174825174825175,
+            "y": 0.5704697986577181
+          }
+        },
+        {
+          "filename": "climb/player_climb_05.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 136,
+            "h": 151
+          },
+          "spriteSourceSize": {
+            "x": 81,
+            "y": 43,
+            "w": 136,
+            "h": 151
+          },
+          "frame": {
+            "x": 765,
+            "y": 0,
+            "w": 136,
+            "h": 151
+          },
+          "anchor": {
+            "x": 0.5073529411764706,
+            "y": 0.5629139072847682
+          }
+        },
+        {
+          "filename": "climb/player_climb_06.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 143,
+            "h": 151
+          },
+          "spriteSourceSize": {
+            "x": 76,
+            "y": 41,
+            "w": 143,
+            "h": 151
+          },
+          "frame": {
+            "x": 918,
+            "y": 0,
+            "w": 143,
+            "h": 151
+          },
+          "anchor": {
+            "x": 0.5174825174825175,
+            "y": 0.5761589403973509
+          }
+        },
+        {
+          "filename": "climb/player_climb_07.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 153,
+            "h": 153
+          },
+          "spriteSourceSize": {
+            "x": 69,
+            "y": 38,
+            "w": 153,
+            "h": 153
+          },
+          "frame": {
+            "x": 1071,
+            "y": 0,
+            "w": 153,
+            "h": 153
+          },
+          "anchor": {
+            "x": 0.5294117647058824,
+            "y": 0.5882352941176471
+          }
+        },
+        {
+          "filename": "climb/player_climb_08.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 149,
+            "h": 152
+          },
+          "spriteSourceSize": {
+            "x": 69,
+            "y": 39,
+            "w": 149,
+            "h": 152
+          },
+          "frame": {
+            "x": 1224,
+            "y": 0,
+            "w": 149,
+            "h": 152
+          },
+          "anchor": {
+            "x": 0.5436241610738255,
+            "y": 0.5855263157894737
+          }
+        },
+        {
+          "filename": "climb/player_climb_09.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 139,
+            "h": 152
+          },
+          "spriteSourceSize": {
+            "x": 72,
+            "y": 42,
+            "w": 139,
+            "h": 152
+          },
+          "frame": {
+            "x": 1377,
+            "y": 0,
+            "w": 139,
+            "h": 152
+          },
+          "anchor": {
+            "x": 0.5611510791366906,
+            "y": 0.5657894736842105
+          }
+        },
+        {
+          "filename": "idle/player_idle_0.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 112,
+            "h": 159
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 36,
+            "w": 112,
+            "h": 159
+          },
+          "frame": {
+            "x": 0,
+            "y": 159,
+            "w": 112,
+            "h": 159
+          },
+          "anchor": {
+            "x": 0.5357142857142857,
+            "y": 0.5786163522012578
+          }
+        },
+        {
+          "filename": "idle/player_idle_1.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 112,
+            "h": 157
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 38,
+            "w": 112,
+            "h": 157
+          },
+          "frame": {
+            "x": 153,
+            "y": 159,
+            "w": 112,
+            "h": 157
+          },
+          "anchor": {
+            "x": 0.5357142857142857,
+            "y": 0.5732484076433121
+          }
+        },
+        {
+          "filename": "idle/player_idle_2.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 114,
+            "h": 155
+          },
+          "spriteSourceSize": {
+            "x": 89,
+            "y": 40,
+            "w": 114,
+            "h": 155
+          },
+          "frame": {
+            "x": 306,
+            "y": 159,
+            "w": 114,
+            "h": 155
+          },
+          "anchor": {
+            "x": 0.5350877192982456,
+            "y": 0.567741935483871
+          }
+        },
+        {
+          "filename": "idle/player_idle_3.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 114,
+            "h": 153
+          },
+          "spriteSourceSize": {
+            "x": 89,
+            "y": 42,
+            "w": 114,
+            "h": 153
+          },
+          "frame": {
+            "x": 459,
+            "y": 159,
+            "w": 114,
+            "h": 153
+          },
+          "anchor": {
+            "x": 0.5350877192982456,
+            "y": 0.5620915032679739
+          }
+        },
+        {
+          "filename": "idle/player_idle_4.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 114,
+            "h": 151
+          },
+          "spriteSourceSize": {
+            "x": 89,
+            "y": 44,
+            "w": 114,
+            "h": 151
+          },
+          "frame": {
+            "x": 612,
+            "y": 159,
+            "w": 114,
+            "h": 151
+          },
+          "anchor": {
+            "x": 0.5350877192982456,
+            "y": 0.5562913907284768
+          }
+        },
+        {
+          "filename": "idle/player_idle_5.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 114,
+            "h": 153
+          },
+          "spriteSourceSize": {
+            "x": 89,
+            "y": 42,
+            "w": 114,
+            "h": 153
+          },
+          "frame": {
+            "x": 765,
+            "y": 159,
+            "w": 114,
+            "h": 153
+          },
+          "anchor": {
+            "x": 0.5350877192982456,
+            "y": 0.5620915032679739
+          }
+        },
+        {
+          "filename": "idle/player_idle_6.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 114,
+            "h": 155
+          },
+          "spriteSourceSize": {
+            "x": 89,
+            "y": 40,
+            "w": 114,
+            "h": 155
+          },
+          "frame": {
+            "x": 918,
+            "y": 159,
+            "w": 114,
+            "h": 155
+          },
+          "anchor": {
+            "x": 0.5350877192982456,
+            "y": 0.567741935483871
+          }
+        },
+        {
+          "filename": "idle/player_idle_7.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 112,
+            "h": 157
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 38,
+            "w": 112,
+            "h": 157
+          },
+          "frame": {
+            "x": 1071,
+            "y": 159,
+            "w": 112,
+            "h": 157
+          },
+          "anchor": {
+            "x": 0.5357142857142857,
+            "y": 0.5732484076433121
+          }
+        },
+        {
+          "filename": "jump/player_fall.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 121,
+            "h": 154
+          },
+          "spriteSourceSize": {
+            "x": 86,
+            "y": 39,
+            "w": 121,
+            "h": 154
+          },
+          "frame": {
+            "x": 1224,
+            "y": 159,
+            "w": 121,
+            "h": 154
+          },
+          "anchor": {
+            "x": 0.5289256198347108,
+            "y": 0.577922077922078
+          }
+        },
+        {
+          "filename": "jump/player_rise.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 132,
+            "h": 156
+          },
+          "spriteSourceSize": {
+            "x": 78,
+            "y": 39,
+            "w": 132,
+            "h": 156
+          },
+          "frame": {
+            "x": 1377,
+            "y": 159,
+            "w": 132,
+            "h": 156
+          },
+          "anchor": {
+            "x": 0.5454545454545454,
+            "y": 0.5705128205128205
+          }
+        },
+        {
+          "filename": "run/player_run_00.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 112,
+            "h": 159
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 36,
+            "w": 112,
+            "h": 159
+          },
+          "frame": {
+            "x": 0,
+            "y": 318,
+            "w": 112,
+            "h": 159
+          },
+          "anchor": {
+            "x": 0.5357142857142857,
+            "y": 0.5786163522012578
+          }
+        },
+        {
+          "filename": "run/player_run_01.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 112,
+            "h": 158
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 29,
+            "w": 112,
+            "h": 158
+          },
+          "frame": {
+            "x": 153,
+            "y": 318,
+            "w": 112,
+            "h": 158
+          },
+          "anchor": {
+            "x": 0.5357142857142857,
+            "y": 0.6265822784810127
+          }
+        },
+        {
+          "filename": "run/player_run_02.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 112,
+            "h": 146
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 23,
+            "w": 112,
+            "h": 146
+          },
+          "frame": {
+            "x": 306,
+            "y": 318,
+            "w": 112,
+            "h": 146
+          },
+          "anchor": {
+            "x": 0.5357142857142857,
+            "y": 0.7191780821917808
+          }
+        },
+        {
+          "filename": "run/player_run_03.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 112,
+            "h": 146
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 23,
+            "w": 112,
+            "h": 146
+          },
+          "frame": {
+            "x": 459,
+            "y": 318,
+            "w": 112,
+            "h": 146
+          },
+          "anchor": {
+            "x": 0.5357142857142857,
+            "y": 0.7191780821917808
+          }
+        },
+        {
+          "filename": "run/player_run_04.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 112,
+            "h": 156
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 31,
+            "w": 112,
+            "h": 156
+          },
+          "frame": {
+            "x": 612,
+            "y": 318,
+            "w": 112,
+            "h": 156
+          },
+          "anchor": {
+            "x": 0.5357142857142857,
+            "y": 0.6217948717948718
+          }
+        },
+        {
+          "filename": "run/player_run_05.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 112,
+            "h": 156
+          },
+          "spriteSourceSize": {
+            "x": 90,
+            "y": 39,
+            "w": 112,
+            "h": 156
+          },
+          "frame": {
+            "x": 765,
+            "y": 318,
+            "w": 112,
+            "h": 156
+          },
+          "anchor": {
+            "x": 0.5357142857142857,
+            "y": 0.5705128205128205
+          }
+        },
+        {
+          "filename": "run/player_run_06.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 157
+          },
+          "spriteSourceSize": {
+            "x": 84,
+            "y": 31,
+            "w": 128,
+            "h": 157
+          },
+          "frame": {
+            "x": 918,
+            "y": 318,
+            "w": 128,
+            "h": 157
+          },
+          "anchor": {
+            "x": 0.515625,
+            "y": 0.6178343949044586
+          }
+        },
+        {
+          "filename": "run/player_run_07.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 149,
+            "h": 149
+          },
+          "spriteSourceSize": {
+            "x": 75,
+            "y": 24,
+            "w": 149,
+            "h": 149
+          },
+          "frame": {
+            "x": 1071,
+            "y": 318,
+            "w": 149,
+            "h": 149
+          },
+          "anchor": {
+            "x": 0.5033557046979866,
+            "y": 0.697986577181208
+          }
+        },
+        {
+          "filename": "run/player_run_08.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 149,
+            "h": 149
+          },
+          "spriteSourceSize": {
+            "x": 75,
+            "y": 24,
+            "w": 149,
+            "h": 149
+          },
+          "frame": {
+            "x": 1224,
+            "y": 318,
+            "w": 149,
+            "h": 149
+          },
+          "anchor": {
+            "x": 0.5033557046979866,
+            "y": 0.697986577181208
+          }
+        },
+        {
+          "filename": "run/player_run_09.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 158
+          },
+          "spriteSourceSize": {
+            "x": 84,
+            "y": 30,
+            "w": 128,
+            "h": 158
+          },
+          "frame": {
+            "x": 1377,
+            "y": 318,
+            "w": 128,
+            "h": 158
+          },
+          "anchor": {
+            "x": 0.515625,
+            "y": 0.620253164556962
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "3.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:2801c7f367f08f6d1b22f2ada3af16c9:c6ba05116abfc5129824d217fed2c0d7:98e72d2635780b317969be5e6d511fbd$"
+  }
+}
